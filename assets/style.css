@@ -46,20 +46,54 @@ nav {
     float: left;
   }
   
+  .top {
+    height: 50%;
+    background-color: red;
+  }
+  
+  .grid1 {
+    height: 50%;
+    width: 50%;
+    background-color: lavenderblush;
+    float: left;
+  }
+  
+  .grid2 {
+    height: 50%;
+    width: 50%;
+    background-color: orange;
+    float: left;
+  }
+  
+  .grid3 {
+    height: 50%;
+    width: 50%;
+    background-color: greenyellow;
+    float: left;
+  }
+  
+  .grid4 {
+    height: 50%;
+    width: 50%;
+    background-color: pink;
+    float: left;
+  }
+  
   .right {
     background-color: cyan;
     float: right;
     position: relative;
   }
+  
   .center {
-      position: absolute;
-      top:50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      background-color: black;
-      height: 60px;
-      width: 60px;
-      border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    /* border-radius: 15px; */
   }
   
   footer {
